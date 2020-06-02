@@ -1,0 +1,29 @@
+#loading-bar-spinner.spinner
+  position: absolute
+  z-index: 19 !important
+  -webkit-animation: loading-bar-spinner 600ms linear infinite
+  animation: loading-bar-spinner 600ms linear infinite
+
+#loading-bar-spinner.spinner .spinner-icon
+  width: 40px
+  height: 40px
+  border: solid 4px transparent
+  border-top-color: rgba(40, 44, 52, 0.55) !important
+  border-left-color: rgba(40, 44, 52, 0.55) !important
+  border-radius: 50%
+
+@-webkit-keyframes loading-bar-spinner
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+@keyframes loading-bar-spinner
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)

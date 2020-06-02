@@ -1,0 +1,57 @@
+.b-main-app
+  width: 100%
+  &--form
+    position: absolute
+    top: 5%
+    background: transparent
+    width: 100%
+    text-align: center
+    &__input, &__button
+      outline: none
+      font-size: $font-size-l
+      font-weight: 500
+      color: $bg-dark
+      background: transparent
+      border: none
+      border-bottom: 1px solid $bg-dark
+    &__input::placeholder
+      font-size: $font-size-m
+      font-style: italic
+
+.b-main-app--widget
+  width: 100%
+  height: 80vh
+  padding: 30px 50px
+  border-radius: 0 0 15px 15px
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  min-width: 300px
+  transition: background-color 500ms linear
+.cold
+  background: $bg-cold
+  transition: background 0.4s ease-in-out
+
+.warm
+  background: $bg-warm
+  transition: background 0.4s ease-in-out
+
+.hot
+  background: $bg-hot
+  transition: background 0.4s ease-in-out
+
+.b-widget-main
+  min-width: 320px
+  padding: 30px
+  background: rgba(40, 44, 52, 0.6)
+  border-radius: 15px
+  &--info
+    color: $bg-gray
+    font-size: $font-size-xxl
+    font-weight: 500
+    &__no-city
+      font-size: $font-size-xl
+
+
+

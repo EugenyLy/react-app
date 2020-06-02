@@ -29,10 +29,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-At first you need to create account in firebase to install firebase-tools.
-Then you need to make:
-    - firebase login(send me this login and I'll give permissions for deploy);
-    - firebase init;
+At first you need to create account in firebase to install firebase-tools.<br />
+Then you need to make:<br />
+    - firebase login(send me this login and I'll give permissions for deploy);<br />
+    - firebase init;<br />
     - yarn run build && firebase deploy.
 
 
